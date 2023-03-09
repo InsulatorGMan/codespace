@@ -1,21 +1,20 @@
 {
-    "name": "kaboom-ts",
-    "version": "1.0.0",
-    "description": "A starter template for making Kaboom games in TypeScript",
-    "main": "main.js",
-    "scripts": {
-        "dev": "esbuild src/main.ts --serve=3000 --servedir=public --bundle --sourcemap --target=es6 --define:__DEV__=true --outfile=public/bundle.js",
-        "prod": "esbuild src/main.ts --serve=3000 --servedir=public --bundle --minify --target=es6 --define:__DEV__=false --outfile=public/bundle.js",
-        "build": "esbuild src/main.ts --bundle --minify --target=es6n --define:__DEV__=false --outfile=public/bundle.js"
-    },
-    "keywords": [
-        "kaboom",
-        "TypeScript"
-    ],
-    "author": "Nassim Saboundji",
-    "license": "ISC",
-    "dependencies": {
-        "esbuild": "^0.14.39",
-        "kaboom": "^2000.2.10"
-    }
+  "name": "codespace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InsulatorGMan/codespace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InsulatorGMan/codespace/issues"
+  },
+  "homepage": "https://github.com/InsulatorGMan/codespace#readme"
 }
