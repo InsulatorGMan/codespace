@@ -41,8 +41,6 @@ function update() {
   yMin = -boxTop;
   xMax = win.innerWidth - boxLeft - boxWidth;
   yMax = win.innerHeight - boxTop - boxHeight;
-  box.style.width = win.innerWidth / 5;
-  box.style.height = win.innerHeight / 5;
 }
 
 function move() {
