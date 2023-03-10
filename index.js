@@ -16,7 +16,7 @@ var box = document.getElementById('dvd'),
   yMax = win.innerHeight - boxTop - boxHeight,
   request = null,
   direction = 'se',
-  speed = 4,
+  speed = 6,
   timeout = null;
 
 init();
@@ -41,6 +41,8 @@ function update() {
   yMin = -boxTop;
   xMax = win.innerWidth - boxLeft - boxWidth;
   yMax = win.innerHeight - boxTop - boxHeight;
+  box.style.width = win.innerWidth / 5;
+  box.style.height = win.innerHeight / 5;
 }
 
 function move() {
