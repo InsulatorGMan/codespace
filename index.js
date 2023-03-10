@@ -70,6 +70,7 @@ function setDirection() {
       break;
   }
   setLimits();
+  play();
 }
 
 function setLimits() {
@@ -135,6 +136,13 @@ function getVendor() {
 
   return vendors[match[0]];
 };
+
+function play() {
+  
+  var audio = new Audio('/sounds/bonk.wav');
+  audio.play();
+  
+}
 
 function setStyle(element, properties) {
   var prefix = getVendor(),
